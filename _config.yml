@@ -1,0 +1,103 @@
+# Where things are
+# auto: true
+source:      .
+destination: ./_site
+#plugins:     ./_plugins
+#Configuration Error: You specified the `plugins` config in your configuration file as a string, please use an array instead. If you wanted to set the directory of your plugins, use the config key `plugins_dir` instead.
+#plugins_dir:     ./_plugins
+#layouts:     ./_layouts
+#data_source: ./_data
+future: true
+#collections: null
+
+
+# Handling Reading
+
+include: [".htaccess"]
+exclude: ["README.md", ".git", ".svn"]
+keep_files: ["/static/","/images/"]
+encoding : utf-8
+markdown_ext: "md"
+textile_ext:  "textile"
+
+
+# Filtering Content
+#show_drafts: null
+#limit_posts: 999999
+future:      true
+unpublished: false
+
+
+# Plugins
+#whitelist: []
+#gems:
+#    - jemoji
+#    - jekyll-redirect-from
+#    - jekyll-sitemap
+
+
+# Conversion
+#github: [metadata]
+#kramdown:
+#    input: GFM
+#    hard_wrap: false
+#markdown:    rdiscount
+#markdown:    kramdown
+
+#pygments: true
+
+
+#GitHub Pages & Jekyll override the following settings in your _config.yml file, which you cannot change
+#lsi: false
+#safe: true
+#incremental: false
+#highlighter: rouge
+#highlighter: pygments
+#gist:
+#    noscript: false
+excerpt_separator: "\n\n"
+
+
+# Serving
+#detach:  false
+port:    80
+host: //res2026.tiankonguse.com
+#host:    192.168.31.137
+#host:    127.0.0.1
+baseurl: "/" # does not include hostname
+url: //res2026.tiankonguse.com
+#url: http://192.168.31.137
+#url: http://127.0.0.1
+
+# Backwards-compatibility
+#relative_permalinks: false
+
+# Outputting
+
+#year 文件名中的年份
+#month 文件名中的月份
+#day 文件名中的日期
+#title 文件名中的文章标题
+#categories 文章的分类，如果文章没有分类，会忽略
+
+#i-month 文件名中的除去前缀0的月份
+#i-day 文件名中的除去前缀0的日期
+
+#permalink: /blog/:year/:month/:day/:title.html
+#paginate_path: page:num
+#paginate: 10
+#prelinkpath : ""
+#production_url : http://res.tiankonguse.com
+#timezone:      null
+#quiet:    false
+#defaults: []
+
+# site info
+#author : tiankonguse
+#title: kiki home
+#description : 这是 kiki's home。
+#author_info: <a href="http://res.tiankonguse.com">kiki</a>
+#tagline: Site Tagline 
+
+
+#no_load_relate_post : 1
