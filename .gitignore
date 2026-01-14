@@ -1,0 +1,9 @@
+_site/
+build/
+file/
+_drafts/
+.DS_Store
+*.swp
+*~
+*.log
+.vscode/
